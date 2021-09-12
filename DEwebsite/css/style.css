@@ -1,0 +1,273 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url("../team_media/body1.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 755px;
+  opacity: 0.9;
+}
+.headerset {
+  padding-top: 250px;
+  box-sizing: border-box;
+}
+
+.headerset h2 {
+  font-size: 42px;
+  font-family: serif;
+}
+.headerset h1 {
+  font-size: 72px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+.headerset h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.headerset h6 {
+  font-family: cursive;
+}
+
+.about {
+  padding: 100px 0px 60px;
+  height: 2420px;
+  width: 700px;
+  border: 8px solid;
+  background-image: linear-gradient(to right, #40e0d0, rgb(20, 20, 141));
+  background-color: teal;
+}
+.text {
+  background-color: antiquewhite;
+}
+
+.about p {
+  font-weight: 400;
+  font: italic 18px/32px Georgia, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.about h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.button {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  height: 140px;
+  justify-content: center;
+  width: 100%;
+  background-color: beige;
+}
+.button p {
+  margin-top: 30px;
+}
+.button a {
+  background: #049292;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  font-family: "Bitter", serif;
+  border-radius: 9px;
+}
+
+.rowport {
+  margin: 30px 0px;
+}
+
+/*
+--------------------for ourservices--------------------------
+*/
+
+.ourservice {
+  padding: 100px 0px 60px;
+  height: 650px;
+}
+.ourservice h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.rowsetting {
+  margin: 80px 0px !important;
+}
+.rowsetting p {
+  color: #6c757d !important;
+  padding: 10px;
+}
+.rowsetting h2 {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.imgsetting {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+i {
+  margin-top: 25px;
+}
+
+.ourteam {
+  height: 1000px;
+  padding: 100px 0px 60px;
+  width: 100%;
+  min-width: 0px;
+  min-height: 0px;
+}
+.ourteam h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.teamsetting {
+  margin-top: 50px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background: #ede7f6;
+}
+footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  background: #111;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+footer .container .sec {
+  margin-right: 30px;
+}
+footer .container .sec.aboutus {
+  width: 40%;
+}
+footer .container h4 {
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+footer .container h4:before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: #f00;
+}
+footer p {
+  color: #999;
+}
+.quicklinks ul li {
+  list-style: none;
+}
+.quicklinks ul li a {
+  color: #999;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+.quicklinks ul li a:hover {
+  color: #fff;
+}
+#copyrightText {
+  width: 100%;
+  height: 50px;
+  background: #181818;
+  padding: 8px 100px;
+  text-align: center;
+  color: #999;
+}
+/*
+.footer {
+  left: 0%;
+  bottom: 0%;
+  height: 50px;
+}
+.footer h6 {
+  line-height: 50px;
+}
+*/
+@media (min-width: 992px) {
+}
+/*
+@media(min-width:768px) and (max-width:991px){
+
+}
+*/
+
+@media (max-width: 991px) {
+  footer {
+    padding: 40px;
+  }
+  footer .container {
+    flex-direction: column;
+  }
+  footer .container .sec {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+  footer .container .sec.aboutus,
+  .quicklinks,
+  .contact {
+    width: 100%;
+  }
+  .copyrightText {
+    padding: 8px 40px;
+  }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+}
+
+@media (min-width: 480px) and (max-width: 574px) {
+}
+
+@media (max-width: 479px) {
+  .headerset h2 {
+    font-size: 22px;
+  }
+  .headerset h1 {
+    font-size: 42px;
+    font-weight: bold;
+  }
+
+  .ourservice {
+    height: 1300px;
+  }
+
+  .ourteam {
+    height: 2100px;
+  }
+}
